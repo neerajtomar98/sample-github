@@ -1,0 +1,68 @@
+.repository {
+    box-sizing: border-box;
+    height: 134px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #e1e4e8 !important;
+    border-bottom: 1px solid #e1e4e8 !important;
+    color: #586069;
+}
+
+.repo-details {
+    width: 100%;
+}
+
+.repo-name {
+    color: #0366d6;
+    text-decoration: none;
+}
+
+.description {
+    font-size: 14px;
+    padding-right: 24px !important;
+    margin-bottom: 10px !important;
+}
+
+.language-disc {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: green;
+}
+
+.other-repo-details {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    margin-bottom: 10px !important;
+}
+
+.other-detail {
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.star-button {
+    padding: 3px 12px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #24292e;
+    background-color: #fafbfc;
+    border-color: rgba(27, 31, 35, .15);
+    box-shadow: 0 1px 0 rgba(27, 31, 35, .04), inset 0 1px 0 hsla(0, 0%, 100%, .25);
+    position: relative;
+    display: inline-block;
+    font-weight: 500;
+    white-space: nowrap;
+    vertical-align: middle;
+    pointer-events: none;
+    user-select: none;
+    border: 1px solid #e1e4e8;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+}
